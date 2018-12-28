@@ -217,7 +217,7 @@ public class AddMovie extends AppCompatActivityExt {
                                                 @Override
                                                 public void onSuccess(Void aVoid) {
                                                     mProgress.dismiss();
-                                                    Toast.makeText(AddMovie.this, "Movie Added", Toast.LENGTH_SHORT).show();
+                                            Toast.makeText(AddMovie.this, "Movie Added", Toast.LENGTH_SHORT).show();
 
                                                     finish();
                                                 }
